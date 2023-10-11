@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e17461978a189884fb2a29e7f1e926f9, type: 3}
+  m_Name: Aquatic Letter Eye Accessory
+  m_EditorClassIdentifier: 
+  _ID: 4
+  _Type: 0
+  _Name: Aquatic Letter Eye Accessory
+  _Description: 
+  _Sprite: {fileID: 21300000, guid: 1c454f4035649514a8fb55ad7a1c5bdf, type: 3}
+  m_LevelRequirement: 0
+  _EquipType: 7
+  m_BaseStats:
+    STR: 6
+    DEX: 6
+    INT: 6
+    LUK: 6
+    MaxHP: 0
+    MaxMP: 0
+    ATT: 1
+    MATT: 1
+    DEF: 100
+    PctAllStat: 0
+    PctBossDMG: 0
+    PctIED: 0
+    PctDMG: 0
+    PctCrt: 0
+    PctCrtDMG: 0
+    PctMastery: 0
+  materialItem: {fileID: 0}
+  materialCount: 0

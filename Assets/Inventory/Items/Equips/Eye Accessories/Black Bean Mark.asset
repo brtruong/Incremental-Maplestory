@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e17461978a189884fb2a29e7f1e926f9, type: 3}
+  m_Name: Black Bean Mark
+  m_EditorClassIdentifier: 
+  _ID: 5
+  _Type: 0
+  _Name: Black Bean Mark
+  _Description: 
+  _Sprite: {fileID: 21300000, guid: c61a8aaca32d42041bf22a480ec529e7, type: 3}
+  m_LevelRequirement: 0
+  _EquipType: 7
+  m_BaseStats:
+    STR: 7
+    DEX: 7
+    INT: 7
+    LUK: 7
+    MaxHP: 0
+    MaxMP: 0
+    ATT: 1
+    MATT: 1
+    DEF: 120
+    PctAllStat: 0
+    PctBossDMG: 0
+    PctIED: 0
+    PctDMG: 0
+    PctCrt: 0
+    PctCrtDMG: 0
+    PctMastery: 0
+  materialItem: {fileID: 0}
+  materialCount: 0

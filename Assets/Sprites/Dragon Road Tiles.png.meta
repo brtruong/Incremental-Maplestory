@@ -1,0 +1,985 @@
+fileFormatVersion: 2
+guid: 431ba4fbae81a264a9b20134129a10a9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8813351936342449917
+    second: Dragon Road Tiles_0
+  - first:
+      213: 34583279184019558
+    second: Dragon Road Tiles_1
+  - first:
+      213: 6703086563482410805
+    second: Dragon Road Tiles_2
+  - first:
+      213: -8425427351757444419
+    second: Dragon Road Tiles_3
+  - first:
+      213: 5956144777557263237
+    second: Dragon Road Tiles_4
+  - first:
+      213: 5006124651753474670
+    second: Dragon Road Tiles_5
+  - first:
+      213: 7340193196177157934
+    second: Dragon Road Tiles_6
+  - first:
+      213: 9044393035663819037
+    second: Dragon Road Tiles_7
+  - first:
+      213: 6688394935537399976
+    second: Dragon Road Tiles_8
+  - first:
+      213: -246688878950548935
+    second: Dragon Road Tiles_9
+  - first:
+      213: 7643536960106989738
+    second: Dragon Road Tiles_10
+  - first:
+      213: -5600335566976353819
+    second: Dragon Road Tiles_11
+  - first:
+      213: -44739509730538732
+    second: Dragon Road Tiles_12
+  - first:
+      213: -8989286844317973426
+    second: Dragon Road Tiles_13
+  - first:
+      213: -2531010456428986887
+    second: Dragon Road Tiles_14
+  - first:
+      213: 1782888998379494612
+    second: Dragon Road Tiles_15
+  - first:
+      213: -6741299958652908409
+    second: Dragon Road Tiles_16
+  - first:
+      213: 152943056597704515
+    second: Dragon Road Tiles_17
+  - first:
+      213: 83548274182958552
+    second: Dragon Road Tiles_18
+  - first:
+      213: 5803666988942694070
+    second: Dragon Road Tiles_19
+  - first:
+      213: 4842425830426044220
+    second: Dragon Road Tiles_20
+  - first:
+      213: -3637255129284932311
+    second: Dragon Road Tiles_21
+  - first:
+      213: 8318877571046429300
+    second: Dragon Road Tiles_22
+  - first:
+      213: 455331169555128488
+    second: Dragon Road Tiles_23
+  - first:
+      213: 7398583934059346317
+    second: Dragon Road Tiles_24
+  - first:
+      213: -5975775176774833369
+    second: Dragon Road Tiles_25
+  - first:
+      213: -5299093322382416672
+    second: Dragon Road Tiles_26
+  - first:
+      213: -6348371751469019857
+    second: Dragon Road Tiles_27
+  - first:
+      213: 353190612589188422
+    second: Dragon Road Tiles_28
+  - first:
+      213: -725190302677506935
+    second: Dragon Road Tiles_29
+  - first:
+      213: 7731529017899310557
+    second: Dragon Road Tiles_30
+  - first:
+      213: -3451274770079175737
+    second: Dragon Road Tiles_31
+  - first:
+      213: -5053828137299974360
+    second: Dragon Road Tiles_32
+  - first:
+      213: 550654678377971811
+    second: Dragon Road Tiles_33
+  - first:
+      213: -3779044846354736090
+    second: Dragon Road Tiles_34
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dragon Road Tiles_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 380
+        width: 90
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 301aec9eb1fa0b580800000000000000
+      internalID: -8813351936342449917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon Road Tiles_1
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 380
+        width: 90
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6608ee62f4dda7000800000000000000
+      internalID: 34583279184019558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon Road Tiles_2
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 380
+        width: 90
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53f101b07b5260d50800000000000000
+      internalID: 6703086563482410805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon Road Tiles_3
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 380
+        width: 90
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dba23a1a67ed21b80800000000000000
+      internalID: -8425427351757444419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon Road Tiles_4
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 380
+        width: 90
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58349114e1a78a250800000000000000
+      internalID: 5956144777557263237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon Road Tiles_5
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 380
+        width: 90
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a8711e8d3597540800000000000000
+      internalID: 5006124651753474670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon Road Tiles_6
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 380
+        width: 90
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2fe0e862da9dd560800000000000000
+      internalID: 7340193196177157934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon Road Tiles_7
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 380
+        width: 90
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1142c3fb83248d70800000000000000
+      internalID: 9044393035663819037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon Road Tiles_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 285
+        width: 90
+        height: 95
+      alignment: 9
+      pivot: {x: 0.5, y: -0.24210526}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a87a3ad1c3f1dc50800000000000000
+      internalID: 6688394935537399976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon Road Tiles_9
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 285
+        width: 90
+        height: 95
+      alignment: 9
+      pivot: {x: 0.5, y: -0.24210526}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93afc1885c5939cf0800000000000000
+      internalID: -246688878950548935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon Road Tiles_10
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 285
+        width: 90
+        height: 95
+      alignment: 9
+      pivot: {x: 0.5, y: -0.24210526}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa80fb63e5c431a60800000000000000
+      internalID: 7643536960106989738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon Road Tiles_11
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 285
+        width: 90
+        height: 95
+      alignment: 9
+      pivot: {x: 0.5, y: -0.24210526}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e97363497c9742b0800000000000000
+      internalID: -5600335566976353819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon Road Tiles_12
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 285
+        width: 90
+        height: 95
+      alignment: 9
+      pivot: {x: 0.5, y: -0.24210526}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41b061727ad016ff0800000000000000
+      internalID: -44739509730538732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon Road Tiles_13
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 285
+        width: 90
+        height: 95
+      alignment: 9
+      pivot: {x: 0.5, y: -0.24210526}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e44c55c0e33af3380800000000000000
+      internalID: -8989286844317973426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon Road Tiles_14
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 285
+        width: 90
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fd30c5566b00ecd0800000000000000
+      internalID: -2531010456428986887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon Road Tiles_15
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 285
+        width: 90
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc9c5e09181eb810800000000000000
+      internalID: 1782888998379494612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon Road Tiles_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 190
+        width: 90
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c432097671272a0800000000000000
+      internalID: -6741299958652908409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon Road Tiles_17
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 190
+        width: 90
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34f5e5f46ec5f1200800000000000000
+      internalID: 152943056597704515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon Road Tiles_18
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 190
+        width: 90
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dda54476b2d82100800000000000000
+      internalID: 83548274182958552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon Road Tiles_19
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 190
+        width: 90
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b617969064ca8050800000000000000
+      internalID: 5803666988942694070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon Road Tiles_20
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 190
+        width: 90
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3768b1f2a0c33340800000000000000
+      internalID: 4842425830426044220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon Road Tiles_21
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 190
+        width: 90
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d018d1bbfd58dc0800000000000000
+      internalID: -3637255129284932311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon Road Tiles_22
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 190
+        width: 90
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 472df285317927370800000000000000
+      internalID: 8318877571046429300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon Road Tiles_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 95
+        width: 90
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a02f784949a15600800000000000000
+      internalID: 455331169555128488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon Road Tiles_24
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 95
+        width: 90
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d89f48e73ec0da660800000000000000
+      internalID: 7398583934059346317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon Road Tiles_25
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 95
+        width: 90
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72b2db24328c11da0800000000000000
+      internalID: -5975775176774833369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon Road Tiles_26
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 95
+        width: 90
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e460c7f2b6d576b0800000000000000
+      internalID: -5299093322382416672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon Road Tiles_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 90
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2d8093f68d06e7a0800000000000000
+      internalID: -6348371751469019857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon Road Tiles_28
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 0
+        width: 90
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6459169adf8c6e400800000000000000
+      internalID: 353190612589188422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon Road Tiles_29
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 0
+        width: 90
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 984695e034b9fe5f0800000000000000
+      internalID: -725190302677506935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon Road Tiles_30
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 0
+        width: 90
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddd538aada8eb4b60800000000000000
+      internalID: 7731529017899310557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon Road Tiles_31
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 0
+        width: 90
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cba92bd1eb9a10d0800000000000000
+      internalID: -3451274770079175737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon Road Tiles_32
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 0
+        width: 90
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8276c50e5123dd9b0800000000000000
+      internalID: -5053828137299974360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon Road Tiles_33
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 0
+        width: 90
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36040a2338154a700800000000000000
+      internalID: 550654678377971811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon Road Tiles_34
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 0
+        width: 90
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62c51c60cb22e8bc0800000000000000
+      internalID: -3779044846354736090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Dragon Road Tiles_24: 7398583934059346317
+      Dragon Road Tiles_29: -725190302677506935
+      Dragon Road Tiles_19: 5803666988942694070
+      Dragon Road Tiles_30: 7731529017899310557
+      Dragon Road Tiles_6: 7340193196177157934
+      Dragon Road Tiles_7: 9044393035663819037
+      Dragon Road Tiles_25: -5975775176774833369
+      Dragon Road Tiles_14: -2531010456428986887
+      Dragon Road Tiles_32: -5053828137299974360
+      Dragon Road Tiles_10: 7643536960106989738
+      Dragon Road Tiles_18: 83548274182958552
+      Dragon Road Tiles_4: 5956144777557263237
+      Dragon Road Tiles_5: 5006124651753474670
+      Dragon Road Tiles_12: -44739509730538732
+      Dragon Road Tiles_13: -8989286844317973426
+      Dragon Road Tiles_27: -6348371751469019857
+      Dragon Road Tiles_21: -3637255129284932311
+      Dragon Road Tiles_22: 8318877571046429300
+      Dragon Road Tiles_34: -3779044846354736090
+      Dragon Road Tiles_1: 34583279184019558
+      Dragon Road Tiles_9: -246688878950548935
+      Dragon Road Tiles_3: -8425427351757444419
+      Dragon Road Tiles_23: 455331169555128488
+      Dragon Road Tiles_15: 1782888998379494612
+      Dragon Road Tiles_8: 6688394935537399976
+      Dragon Road Tiles_0: -8813351936342449917
+      Dragon Road Tiles_20: 4842425830426044220
+      Dragon Road Tiles_33: 550654678377971811
+      Dragon Road Tiles_16: -6741299958652908409
+      Dragon Road Tiles_28: 353190612589188422
+      Dragon Road Tiles_31: -3451274770079175737
+      Dragon Road Tiles_2: 6703086563482410805
+      Dragon Road Tiles_17: 152943056597704515
+      Dragon Road Tiles_26: -5299093322382416672
+      Dragon Road Tiles_11: -5600335566976353819
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

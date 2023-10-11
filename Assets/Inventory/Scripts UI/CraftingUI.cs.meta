@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: c17f1208ed4422b47b689fa8d3c67ae3
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _Logger: {instanceID: 0}
+  - _SetInventory: {fileID: 11400000, guid: 2b35593849a518f439fdd00b31c03866, type: 2}
+  - _CraftingItemSlotPrefab: {fileID: 7125717022652481334, guid: 116bf341cebfc234fb0e9d5bba69020f,
+      type: 3}
+  - _SpriteNothing: {fileID: 21300000, guid: f037a14b5d4022240bea52f1dc27bc69, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

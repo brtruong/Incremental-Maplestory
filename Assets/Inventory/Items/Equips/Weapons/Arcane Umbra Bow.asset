@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e17461978a189884fb2a29e7f1e926f9, type: 3}
+  m_Name: Arcane Umbra Bow
+  m_EditorClassIdentifier: 
+  _ID: 16
+  _Type: 0
+  _Name: Arcane Umbra Bow
+  _Description: 
+  _Sprite: {fileID: 21300000, guid: 3bcbe4fe695854c4389bfde445fc910b, type: 3}
+  m_LevelRequirement: 0
+  _EquipType: 1
+  m_BaseStats:
+    STR: 100
+    DEX: 100
+    INT: 0
+    LUK: 0
+    MaxHP: 0
+    MaxMP: 0
+    ATT: 276
+    MATT: 0
+    DEF: 0
+    PctAllStat: 0
+    PctBossDMG: 30
+    PctIED: 20
+    PctDMG: 0
+    PctCrt: 0
+    PctCrtDMG: 0
+    PctMastery: 0
+  materialItem: {fileID: 11400000, guid: 0439e9482565db3449d6498aa7b4201e, type: 2}
+  materialCount: 5

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6c6dec15aa14064b9945e1e0ecd477d, type: 3}
+  m_Name: Violet Damage Skin
+  m_EditorClassIdentifier: 
+  _Numbers:
+  - {fileID: 320551321879725620, guid: a54a0cf45756f6d4c861103aefc89cc8, type: 3}
+  - {fileID: 1978005433393891472, guid: f824301907d98e343b8c7af1cbf204e0, type: 3}
+  - {fileID: 2376311894932561951, guid: dce331581c425c941b8a48dae221de0e, type: 3}
+  - {fileID: 8867965368159862984, guid: 5247b0a919a406e4aa82388488e29328, type: 3}
+  - {fileID: 3043063934693476935, guid: ece95a86b4c5e01438f175ef6b5ee72f, type: 3}
+  - {fileID: 9156419116784487618, guid: 02b29272d9cd2094498a213586bebb74, type: 3}
+  - {fileID: 8506377772001789373, guid: d7db45d5141a142468429491f56a0dd3, type: 3}
+  - {fileID: 8291476321332547017, guid: 81aa054246d8fed439c3a2e7a5bcdfa8, type: 3}
+  - {fileID: 1850596370001857858, guid: 5225eff54c1fe7e4ba89d216f2b90feb, type: 3}
+  - {fileID: 6361994555493527938, guid: 02993e840ac75f44799fa51d6d4f2f74, type: 3}
+  _NumbersCrit: []
+  _Units: []
+  _Status: []

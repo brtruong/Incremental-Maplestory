@@ -1,0 +1,52 @@
+_______________________________________________________________________________
+GOALS
+	-Audio Monsters
+
+	- Character Stuff
+		4- SkillPoints Based on level
+	- Finish Character Info
+		2- Add More Descriptions to Character Info
+		- Maybe Update How Stats are stored
+	- UI for Character Skills - Hover Display Description 
+
+	- Inventory
+		- Use & Etc Tabs
+		- Use and Etc Items
+		- Crafting Requires Materials
+
+	- Update Save System
+
+	- Boss Map / Monster
+	- Finish Map Background
+	- And More Characters / Skills / Items
+_______________________________________________________________________________
+BUGS
+	- Music For Title Screen
+	- Add Prone Jump
+	- Can Stick to Walls
+_______________________________________________________________________________
+Priority List 
+- Update Title Screen
+- Tools to Easily Add new Characters / Monsters
+- Tools to Make new Levels
+	Update Map and Stages 
+		- https://mapleeditors.com/gallery-of-towns/
+		- https://mapleeditors.com/town-tiles/
+
+_______________________________________________________________________________
+Resources
+	- https://mapleeditors.com/archer/
+	- https://maplestory-music.github.io/
+	- https://browse.maplestory.io/ 
+	- Skill ID - https://ayumilove.net/maplestory-skill-id/
+	- Monster ID - https://github.com/ShlomiRex/Maplestory-Monster-DB/blob/master/Java%20Version/Result/CompleteDatabase.csv
+	- Map ID - https://gist.github.com/Inumedia/dc29e63baa7a615db0c4cb7007588cec
+
+Tutorials
+	- https://www.kodeco.com/7751-unity-custom-inspectors-tutorial-getting-started
+	- Better Stats System - https://www.youtube.com/watch?v=B2JsymHzgvE (7:13 Create instance of scriptable Stat on init()
+	 						 => to Save have the scriptable Stat have a static function that converts any stat to a list then save that list
+							 => to Load have the scriptable Stat have a init or load function to convert list to dictionary)
+
+Animation -> 0 -> 1 -> 2 -> 1 -> 0
+*Monster Stagger 0.3f 

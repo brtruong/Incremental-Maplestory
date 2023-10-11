@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Character
+  - Meso
+  - Skill
+  - Button
+  - Quick Slot
+  - Inventory Slot
+  - Equipment Slot
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Rope
+  - Ground
+  - Ground Item
+  - Ground Character
+  - Ground Enemy
+  - Hitbox Character
+  - Hitbox Enemy
+  - Skill
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 267092359
+    locked: 0
+  - name: Platform Ground
+    uniqueID: 3508421485
+    locked: 0
+  - name: Skill Background
+    uniqueID: 3444649279
+    locked: 0
+  - name: Enemy Ground
+    uniqueID: 2291676969
+    locked: 0
+  - name: Player Ground
+    uniqueID: 3662491249
+    locked: 0
+  - name: Foreground
+    uniqueID: 98090299
+    locked: 0
+  - name: Skill Foreground
+    uniqueID: 3287513673
+    locked: 0
+  - name: Damage Lines
+    uniqueID: 84158905
+    locked: 0
+  - name: Cursor
+    uniqueID: 2802692037
+    locked: 0

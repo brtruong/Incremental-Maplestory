@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: f781daa0f461eea4ea8c08004139ae35
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_Meso: {fileID: 2412659360847393641, guid: c0b6df76b45533a4ab817a558b9475b2,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

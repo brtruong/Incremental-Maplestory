@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 337d36dbad705104fa093fedf40b06ce, type: 3}
+  m_Name: Hero - Raging Blow
+  m_EditorClassIdentifier: 
+  <ID>k__BackingField: 1
+  <Name>k__BackingField: Raging Blow
+  <Type>k__BackingField: 0
+  <Icon>k__BackingField: {fileID: 21300000, guid: a5081e16279a40c499f7a78f1cb2fd3f,
+    type: 3}
+  <Description>k__BackingField: Instantly slash several times to multiple enemies
+    in front of you
+  <NumHitEffects>k__BackingField: 4
+  <CastOffset>k__BackingField: 0.2
+  <CastDuration>k__BackingField: 0.63
+  <ActionDelay>k__BackingField: 1
+  <UseSFX>k__BackingField: {fileID: 8300000, guid: 91625f16ae4522149ab9d5018afe8552,
+    type: 3}
+  <HitSFX>k__BackingField: {fileID: 8300000, guid: 1b5cab54444f0cd4eae0cbb0019156cc,
+    type: 3}
+  <Offset>k__BackingField: {x: -1, y: 0.1}
+  <Size>k__BackingField: {x: 2.7, y: 1.9}
+  <NumHits>k__BackingField: 5
+  <NumEnemyHits>k__BackingField: 8
+  <BasePctDMG>k__BackingField: 100
+  <PerLvlPctDMG>k__BackingField: 10

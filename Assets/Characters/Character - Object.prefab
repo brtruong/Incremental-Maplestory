@@ -1,0 +1,1505 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5290975819480291599
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5290975819480291584}
+  - component: {fileID: 5290975819480291586}
+  - component: {fileID: 5290975819480291585}
+  m_Layer: 11
+  m_Name: Sprite Hitbox
+  m_TagString: Character
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &5290975819480291584
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5290975819480291599}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.45, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5290975820000011701}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &5290975819480291586
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5290975819480291599}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.01}
+  serializedVersion: 2
+  m_Radius: 0.18
+--- !u!61 &5290975819480291585
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5290975819480291599}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.29}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 7.5, y: 7.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.2, y: 0.32}
+  m_EdgeRadius: 0
+--- !u!1 &5290975819554912668
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5290975819554912671}
+  - component: {fileID: 5290975819554912670}
+  - component: {fileID: 5290975819554912669}
+  - component: {fileID: 5290975819554912656}
+  - component: {fileID: 5290975819554912657}
+  m_Layer: 0
+  m_Name: Character - Object
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5290975819554912671
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5290975819554912668}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5290975820000011701}
+  - {fileID: 5290975821019247928}
+  - {fileID: 8456407827050467973}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &5290975819554912670
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5290975819554912668}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 4
+--- !u!114 &5290975819554912669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5290975819554912668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d2ffb7cd58011f45b07ec7a817b6920, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Rb: {fileID: 5290975819554912670}
+  _GroundCheckArea: {fileID: 5290975820282514086}
+  _RopeCheckArea: {fileID: 5290975819734470544}
+  _MovementSpeed: 2
+  _ClimbingSpeed: 1
+  _JumpForce: 4
+  _SpriteDirection: 1
+  _Sprite: {fileID: 5290975821019247929}
+  _SpriteSkillEffect: {fileID: 5290975819661603646}
+  _AnimatorSprite: {fileID: 5290975821019247930}
+  _AnimatorHitEffect: {fileID: 5290975819929018776}
+  CanDoubleJump: 0
+--- !u!114 &5290975819554912656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5290975819554912668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4cc6241435bd5e47aa65b81b89da854, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _SpriteController: {fileID: 5290975819554912669}
+  _CharacterBehaviour: {fileID: 5290975819554912657}
+--- !u!114 &5290975819554912657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5290975819554912668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a477f5c00cc73b4b85af5beea8823ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _CharacterInput: {fileID: 5290975819554912656}
+  _Controller: {fileID: 5290975819554912669}
+  _SpriteHitBox: {fileID: 5290975819480291599}
+  _SkillOrigin: {fileID: 5290975819661603645}
+  _SkillPrefab: {fileID: 4073679233503637227, guid: d895b636aaebcca459f1e2e40132e2d7,
+    type: 3}
+  _Character:
+    _ID: 0
+    _Base: {fileID: 0}
+    _Equipment:
+      _Equips:
+      - _EquipType: 3
+        _IsEmpty: 1
+        _Item:
+          _ID: 0
+          _BaseItem: {fileID: 0}
+          _BonusStats:
+            STR: 0
+            DEX: 0
+            INT: 0
+            LUK: 0
+            MaxHP: 0
+            MaxMP: 0
+            ATT: 0
+            MATT: 0
+            DEF: 0
+            PctAllStat: 0
+            PctBossDMG: 0
+            PctIED: 0
+            PctDMG: 0
+            PctCrt: 0
+            PctCrtDMG: 0
+            PctMastery: 0
+          _TotalStats:
+            STR: 0
+            DEX: 0
+            INT: 0
+            LUK: 0
+            MaxHP: 0
+            MaxMP: 0
+            ATT: 0
+            MATT: 0
+            DEF: 0
+            PctAllStat: 0
+            PctBossDMG: 0
+            PctIED: 0
+            PctDMG: 0
+            PctCrt: 0
+            PctCrtDMG: 0
+            PctMastery: 0
+      - _EquipType: 8
+        _IsEmpty: 1
+        _Item:
+          _ID: 0
+          _BaseItem: {fileID: 0}
+          _BonusStats:
+            STR: 0
+            DEX: 0
+            INT: 0
+            LUK: 0
+            MaxHP: 0
+            MaxMP: 0
+            ATT: 0
+            MATT: 0
+            DEF: 0
+            PctAllStat: 0
+            PctBossDMG: 0
+            PctIED: 0
+            PctDMG: 0
+            PctCrt: 0
+            PctCrtDMG: 0
+            PctMastery: 0
+          _TotalStats:
+            STR: 0
+            DEX: 0
+            INT: 0
+            LUK: 0
+            MaxHP: 0
+            MaxMP: 0
+            ATT: 0
+            MATT: 0
+            DEF: 0
+            PctAllStat: 0
+            PctBossDMG: 0
+            PctIED: 0
+            PctDMG: 0
+            PctCrt: 0
+            PctCrtDMG: 0
+            PctMastery: 0
+      - _EquipType: 2
+        _IsEmpty: 1
+        _Item:
+          _ID: 0
+          _BaseItem: {fileID: 0}
+          _BonusStats:
+            STR: 0
+            DEX: 0
+            INT: 0
+            LUK: 0
+            MaxHP: 0
+            MaxMP: 0
+            ATT: 0
+            MATT: 0
+            DEF: 0
+            PctAllStat: 0
+            PctBossDMG: 0
+            PctIED: 0
+            PctDMG: 0
+            PctCrt: 0
+            PctCrtDMG: 0
+            PctMastery: 0
+          _TotalStats:
+            STR: 0
+            DEX: 0
+            INT: 0
+            LUK: 0
+            MaxHP: 0
+            MaxMP: 0
+            ATT: 0
+            MATT: 0
+            DEF: 0
+            PctAllStat: 0
+            PctBossDMG: 0
+            PctIED: 0
+            PctDMG: 0
+            PctCrt: 0
+            PctCrtDMG: 0
+            PctMastery: 0
+      - _EquipType: 3
+        _IsEmpty: 1
+        _Item:
+          _ID: 0
+          _BaseItem: {fileID: 0}
+          _BonusStats:
+            STR: 0
+            DEX: 0
+            INT: 0
+            LUK: 0
+            MaxHP: 0
+            MaxMP: 0
+            ATT: 0
+            MATT: 0
+            DEF: 0
+            PctAllStat: 0
+            PctBossDMG: 0
+            PctIED: 0
+            PctDMG: 0
+            PctCrt: 0
+            PctCrtDMG: 0
+            PctMastery: 0
+          _TotalStats:
+            STR: 0
+            DEX: 0
+            INT: 0
+            LUK: 0
+            MaxHP: 0
+            MaxMP: 0
+            ATT: 0
+            MATT: 0
+            DEF: 0
+            PctAllStat: 0
+            PctBossDMG: 0
+            PctIED: 0
+            PctDMG: 0
+            PctCrt: 0
+            PctCrtDMG: 0
+            PctMastery: 0
+      - _EquipType: 4
+        _IsEmpty: 1
+        _Item:
+          _ID: 0
+          _BaseItem: {fileID: 0}
+          _BonusStats:
+            STR: 0
+            DEX: 0
+            INT: 0
+            LUK: 0
+            MaxHP: 0
+            MaxMP: 0
+            ATT: 0
+            MATT: 0
+            DEF: 0
+            PctAllStat: 0
+            PctBossDMG: 0
+            PctIED: 0
+            PctDMG: 0
+            PctCrt: 0
+            PctCrtDMG: 0
+            PctMastery: 0
+          _TotalStats:
+            STR: 0
+            DEX: 0
+            INT: 0
+            LUK: 0
+            MaxHP: 0
+            MaxMP: 0
+            ATT: 0
+            MATT: 0
+            DEF: 0
+            PctAllStat: 0
+            PctBossDMG: 0
+            PctIED: 0
+            PctDMG: 0
+            PctCrt: 0
+            PctCrtDMG: 0
+            PctMastery: 0
+      - _EquipType: 5
+        _IsEmpty: 1
+        _Item:
+          _ID: 0
+          _BaseItem: {fileID: 0}
+          _BonusStats:
+            STR: 0
+            DEX: 0
+            INT: 0
+            LUK: 0
+            MaxHP: 0
+            MaxMP: 0
+            ATT: 0
+            MATT: 0
+            DEF: 0
+            PctAllStat: 0
+            PctBossDMG: 0
+            PctIED: 0
+            PctDMG: 0
+            PctCrt: 0
+            PctCrtDMG: 0
+            PctMastery: 0
+          _TotalStats:
+            STR: 0
+            DEX: 0
+            INT: 0
+            LUK: 0
+            MaxHP: 0
+            MaxMP: 0
+            ATT: 0
+            MATT: 0
+            DEF: 0
+            PctAllStat: 0
+            PctBossDMG: 0
+            PctIED: 0
+            PctDMG: 0
+            PctCrt: 0
+            PctCrtDMG: 0
+            PctMastery: 0
+      - _EquipType: 6
+        _IsEmpty: 1
+        _Item:
+          _ID: 0
+          _BaseItem: {fileID: 0}
+          _BonusStats:
+            STR: 0
+            DEX: 0
+            INT: 0
+            LUK: 0
+            MaxHP: 0
+            MaxMP: 0
+            ATT: 0
+            MATT: 0
+            DEF: 0
+            PctAllStat: 0
+            PctBossDMG: 0
+            PctIED: 0
+            PctDMG: 0
+            PctCrt: 0
+            PctCrtDMG: 0
+            PctMastery: 0
+          _TotalStats:
+            STR: 0
+            DEX: 0
+            INT: 0
+            LUK: 0
+            MaxHP: 0
+            MaxMP: 0
+            ATT: 0
+            MATT: 0
+            DEF: 0
+            PctAllStat: 0
+            PctBossDMG: 0
+            PctIED: 0
+            PctDMG: 0
+            PctCrt: 0
+            PctCrtDMG: 0
+            PctMastery: 0
+      - _EquipType: 7
+        _IsEmpty: 1
+        _Item:
+          _ID: 0
+          _BaseItem: {fileID: 0}
+          _BonusStats:
+            STR: 0
+            DEX: 0
+            INT: 0
+            LUK: 0
+            MaxHP: 0
+            MaxMP: 0
+            ATT: 0
+            MATT: 0
+            DEF: 0
+            PctAllStat: 0
+            PctBossDMG: 0
+            PctIED: 0
+            PctDMG: 0
+            PctCrt: 0
+            PctCrtDMG: 0
+            PctMastery: 0
+          _TotalStats:
+            STR: 0
+            DEX: 0
+            INT: 0
+            LUK: 0
+            MaxHP: 0
+            MaxMP: 0
+            ATT: 0
+            MATT: 0
+            DEF: 0
+            PctAllStat: 0
+            PctBossDMG: 0
+            PctIED: 0
+            PctDMG: 0
+            PctCrt: 0
+            PctCrtDMG: 0
+            PctMastery: 0
+      - _EquipType: 3
+        _IsEmpty: 1
+        _Item:
+          _ID: 0
+          _BaseItem: {fileID: 0}
+          _BonusStats:
+            STR: 0
+            DEX: 0
+            INT: 0
+            LUK: 0
+            MaxHP: 0
+            MaxMP: 0
+            ATT: 0
+            MATT: 0
+            DEF: 0
+            PctAllStat: 0
+            PctBossDMG: 0
+            PctIED: 0
+            PctDMG: 0
+            PctCrt: 0
+            PctCrtDMG: 0
+            PctMastery: 0
+          _TotalStats:
+            STR: 0
+            DEX: 0
+            INT: 0
+            LUK: 0
+            MaxHP: 0
+            MaxMP: 0
+            ATT: 0
+            MATT: 0
+            DEF: 0
+            PctAllStat: 0
+            PctBossDMG: 0
+            PctIED: 0
+            PctDMG: 0
+            PctCrt: 0
+            PctCrtDMG: 0
+            PctMastery: 0
+      - _EquipType: 0
+        _IsEmpty: 1
+        _Item:
+          _ID: 0
+          _BaseItem: {fileID: 0}
+          _BonusStats:
+            STR: 0
+            DEX: 0
+            INT: 0
+            LUK: 0
+            MaxHP: 0
+            MaxMP: 0
+            ATT: 0
+            MATT: 0
+            DEF: 0
+            PctAllStat: 0
+            PctBossDMG: 0
+            PctIED: 0
+            PctDMG: 0
+            PctCrt: 0
+            PctCrtDMG: 0
+            PctMastery: 0
+          _TotalStats:
+            STR: 0
+            DEX: 0
+            INT: 0
+            LUK: 0
+            MaxHP: 0
+            MaxMP: 0
+            ATT: 0
+            MATT: 0
+            DEF: 0
+            PctAllStat: 0
+            PctBossDMG: 0
+            PctIED: 0
+            PctDMG: 0
+            PctCrt: 0
+            PctCrtDMG: 0
+            PctMastery: 0
+      - _EquipType: 9
+        _IsEmpty: 1
+        _Item:
+          _ID: 0
+          _BaseItem: {fileID: 0}
+          _BonusStats:
+            STR: 0
+            DEX: 0
+            INT: 0
+            LUK: 0
+            MaxHP: 0
+            MaxMP: 0
+            ATT: 0
+            MATT: 0
+            DEF: 0
+            PctAllStat: 0
+            PctBossDMG: 0
+            PctIED: 0
+            PctDMG: 0
+            PctCrt: 0
+            PctCrtDMG: 0
+            PctMastery: 0
+          _TotalStats:
+            STR: 0
+            DEX: 0
+            INT: 0
+            LUK: 0
+            MaxHP: 0
+            MaxMP: 0
+            ATT: 0
+            MATT: 0
+            DEF: 0
+            PctAllStat: 0
+            PctBossDMG: 0
+            PctIED: 0
+            PctDMG: 0
+            PctCrt: 0
+            PctCrtDMG: 0
+            PctMastery: 0
+      - _EquipType: 14
+        _IsEmpty: 1
+        _Item:
+          _ID: 0
+          _BaseItem: {fileID: 0}
+          _BonusStats:
+            STR: 0
+            DEX: 0
+            INT: 0
+            LUK: 0
+            MaxHP: 0
+            MaxMP: 0
+            ATT: 0
+            MATT: 0
+            DEF: 0
+            PctAllStat: 0
+            PctBossDMG: 0
+            PctIED: 0
+            PctDMG: 0
+            PctCrt: 0
+            PctCrtDMG: 0
+            PctMastery: 0
+          _TotalStats:
+            STR: 0
+            DEX: 0
+            INT: 0
+            LUK: 0
+            MaxHP: 0
+            MaxMP: 0
+            ATT: 0
+            MATT: 0
+            DEF: 0
+            PctAllStat: 0
+            PctBossDMG: 0
+            PctIED: 0
+            PctDMG: 0
+            PctCrt: 0
+            PctCrtDMG: 0
+            PctMastery: 0
+      - _EquipType: 1
+        _IsEmpty: 1
+        _Item:
+          _ID: 0
+          _BaseItem: {fileID: 0}
+          _BonusStats:
+            STR: 0
+            DEX: 0
+            INT: 0
+            LUK: 0
+            MaxHP: 0
+            MaxMP: 0
+            ATT: 0
+            MATT: 0
+            DEF: 0
+            PctAllStat: 0
+            PctBossDMG: 0
+            PctIED: 0
+            PctDMG: 0
+            PctCrt: 0
+            PctCrtDMG: 0
+            PctMastery: 0
+          _TotalStats:
+            STR: 0
+            DEX: 0
+            INT: 0
+            LUK: 0
+            MaxHP: 0
+            MaxMP: 0
+            ATT: 0
+            MATT: 0
+            DEF: 0
+            PctAllStat: 0
+            PctBossDMG: 0
+            PctIED: 0
+            PctDMG: 0
+            PctCrt: 0
+            PctCrtDMG: 0
+            PctMastery: 0
+      - _EquipType: 3
+        _IsEmpty: 1
+        _Item:
+          _ID: 0
+          _BaseItem: {fileID: 0}
+          _BonusStats:
+            STR: 0
+            DEX: 0
+            INT: 0
+            LUK: 0
+            MaxHP: 0
+            MaxMP: 0
+            ATT: 0
+            MATT: 0
+            DEF: 0
+            PctAllStat: 0
+            PctBossDMG: 0
+            PctIED: 0
+            PctDMG: 0
+            PctCrt: 0
+            PctCrtDMG: 0
+            PctMastery: 0
+          _TotalStats:
+            STR: 0
+            DEX: 0
+            INT: 0
+            LUK: 0
+            MaxHP: 0
+            MaxMP: 0
+            ATT: 0
+            MATT: 0
+            DEF: 0
+            PctAllStat: 0
+            PctBossDMG: 0
+            PctIED: 0
+            PctDMG: 0
+            PctCrt: 0
+            PctCrtDMG: 0
+            PctMastery: 0
+      - _EquipType: 15
+        _IsEmpty: 1
+        _Item:
+          _ID: 0
+          _BaseItem: {fileID: 0}
+          _BonusStats:
+            STR: 0
+            DEX: 0
+            INT: 0
+            LUK: 0
+            MaxHP: 0
+            MaxMP: 0
+            ATT: 0
+            MATT: 0
+            DEF: 0
+            PctAllStat: 0
+            PctBossDMG: 0
+            PctIED: 0
+            PctDMG: 0
+            PctCrt: 0
+            PctCrtDMG: 0
+            PctMastery: 0
+          _TotalStats:
+            STR: 0
+            DEX: 0
+            INT: 0
+            LUK: 0
+            MaxHP: 0
+            MaxMP: 0
+            ATT: 0
+            MATT: 0
+            DEF: 0
+            PctAllStat: 0
+            PctBossDMG: 0
+            PctIED: 0
+            PctDMG: 0
+            PctCrt: 0
+            PctCrtDMG: 0
+            PctMastery: 0
+      - _EquipType: 10
+        _IsEmpty: 1
+        _Item:
+          _ID: 0
+          _BaseItem: {fileID: 0}
+          _BonusStats:
+            STR: 0
+            DEX: 0
+            INT: 0
+            LUK: 0
+            MaxHP: 0
+            MaxMP: 0
+            ATT: 0
+            MATT: 0
+            DEF: 0
+            PctAllStat: 0
+            PctBossDMG: 0
+            PctIED: 0
+            PctDMG: 0
+            PctCrt: 0
+            PctCrtDMG: 0
+            PctMastery: 0
+          _TotalStats:
+            STR: 0
+            DEX: 0
+            INT: 0
+            LUK: 0
+            MaxHP: 0
+            MaxMP: 0
+            ATT: 0
+            MATT: 0
+            DEF: 0
+            PctAllStat: 0
+            PctBossDMG: 0
+            PctIED: 0
+            PctDMG: 0
+            PctCrt: 0
+            PctCrtDMG: 0
+            PctMastery: 0
+      - _EquipType: 11
+        _IsEmpty: 1
+        _Item:
+          _ID: 0
+          _BaseItem: {fileID: 0}
+          _BonusStats:
+            STR: 0
+            DEX: 0
+            INT: 0
+            LUK: 0
+            MaxHP: 0
+            MaxMP: 0
+            ATT: 0
+            MATT: 0
+            DEF: 0
+            PctAllStat: 0
+            PctBossDMG: 0
+            PctIED: 0
+            PctDMG: 0
+            PctCrt: 0
+            PctCrtDMG: 0
+            PctMastery: 0
+          _TotalStats:
+            STR: 0
+            DEX: 0
+            INT: 0
+            LUK: 0
+            MaxHP: 0
+            MaxMP: 0
+            ATT: 0
+            MATT: 0
+            DEF: 0
+            PctAllStat: 0
+            PctBossDMG: 0
+            PctIED: 0
+            PctDMG: 0
+            PctCrt: 0
+            PctCrtDMG: 0
+            PctMastery: 0
+      - _EquipType: 13
+        _IsEmpty: 1
+        _Item:
+          _ID: 0
+          _BaseItem: {fileID: 0}
+          _BonusStats:
+            STR: 0
+            DEX: 0
+            INT: 0
+            LUK: 0
+            MaxHP: 0
+            MaxMP: 0
+            ATT: 0
+            MATT: 0
+            DEF: 0
+            PctAllStat: 0
+            PctBossDMG: 0
+            PctIED: 0
+            PctDMG: 0
+            PctCrt: 0
+            PctCrtDMG: 0
+            PctMastery: 0
+          _TotalStats:
+            STR: 0
+            DEX: 0
+            INT: 0
+            LUK: 0
+            MaxHP: 0
+            MaxMP: 0
+            ATT: 0
+            MATT: 0
+            DEF: 0
+            PctAllStat: 0
+            PctBossDMG: 0
+            PctIED: 0
+            PctDMG: 0
+            PctCrt: 0
+            PctCrtDMG: 0
+            PctMastery: 0
+      - _EquipType: 3
+        _IsEmpty: 1
+        _Item:
+          _ID: 0
+          _BaseItem: {fileID: 0}
+          _BonusStats:
+            STR: 0
+            DEX: 0
+            INT: 0
+            LUK: 0
+            MaxHP: 0
+            MaxMP: 0
+            ATT: 0
+            MATT: 0
+            DEF: 0
+            PctAllStat: 0
+            PctBossDMG: 0
+            PctIED: 0
+            PctDMG: 0
+            PctCrt: 0
+            PctCrtDMG: 0
+            PctMastery: 0
+          _TotalStats:
+            STR: 0
+            DEX: 0
+            INT: 0
+            LUK: 0
+            MaxHP: 0
+            MaxMP: 0
+            ATT: 0
+            MATT: 0
+            DEF: 0
+            PctAllStat: 0
+            PctBossDMG: 0
+            PctIED: 0
+            PctDMG: 0
+            PctCrt: 0
+            PctCrtDMG: 0
+            PctMastery: 0
+      - _EquipType: 12
+        _IsEmpty: 1
+        _Item:
+          _ID: 0
+          _BaseItem: {fileID: 0}
+          _BonusStats:
+            STR: 0
+            DEX: 0
+            INT: 0
+            LUK: 0
+            MaxHP: 0
+            MaxMP: 0
+            ATT: 0
+            MATT: 0
+            DEF: 0
+            PctAllStat: 0
+            PctBossDMG: 0
+            PctIED: 0
+            PctDMG: 0
+            PctCrt: 0
+            PctCrtDMG: 0
+            PctMastery: 0
+          _TotalStats:
+            STR: 0
+            DEX: 0
+            INT: 0
+            LUK: 0
+            MaxHP: 0
+            MaxMP: 0
+            ATT: 0
+            MATT: 0
+            DEF: 0
+            PctAllStat: 0
+            PctBossDMG: 0
+            PctIED: 0
+            PctDMG: 0
+            PctCrt: 0
+            PctCrtDMG: 0
+            PctMastery: 0
+    _Skills: []
+    _Stats:
+      STR: 5
+      DEX: 5
+      INT: 5
+      LUK: 5
+      MaxHP: 100
+      MaxMP: 100
+      ATT: 5
+      MATT: 5
+      DEF: 0
+      PctAllStat: 0
+      PctBossDMG: 0
+      PctIED: 0
+      PctDMG: 0
+      PctCrt: 0
+      PctCrtDMG: 0
+      PctMastery: 0
+    _Level: 0
+    _UpperDMG: 10
+    _LowerDMG: 10
+    _PosX: 0
+    _PosY: 0
+--- !u!1 &5290975819661603644
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5290975819661603645}
+  - component: {fileID: 5290975819661603646}
+  m_Layer: 0
+  m_Name: Skill Effect
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5290975819661603645
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5290975819661603644}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5290975821019247928}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &5290975819661603646
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5290975819661603644}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -1007453623
+  m_SortingLayer: 7
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 40, y: 20}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 0
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!1 &5290975819734470558
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5290975819734470559}
+  - component: {fileID: 5290975819734470544}
+  m_Layer: 0
+  m_Name: Rope Collider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5290975819734470559
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5290975819734470558}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5290975820000011701}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5290975819734470544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5290975819734470558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4265e47a7abaccd42b371bffec039b46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _OffSet: {x: 0, y: 0.16}
+  _Size: {x: 0.05, y: 0.32}
+  _Draw: 0
+  _Center: {x: 0, y: 0}
+  _PointA: {x: 0, y: 0}
+  _PointB: {x: 0, y: 0}
+--- !u!1 &5290975819929018791
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5290975819929018778}
+  - component: {fileID: 5290975819929018777}
+  - component: {fileID: 5290975819929018776}
+  m_Layer: 0
+  m_Name: Hit Effect
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5290975819929018778
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5290975819929018791}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5290975821019247928}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &5290975819929018777
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5290975819929018791}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -1007453623
+  m_SortingLayer: 7
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.85, y: 0.78}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 0
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!95 &5290975819929018776
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5290975819929018791}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: dad7c39acc058a149b3bf68cff646a42, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1 &5290975820000011700
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5290975820000011701}
+  m_Layer: 0
+  m_Name: Colliders
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5290975820000011701
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5290975820000011700}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5290975820282514084}
+  - {fileID: 5290975819734470559}
+  - {fileID: 5290975819480291584}
+  m_Father: {fileID: 5290975819554912671}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5290975820282514083
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5290975820282514084}
+  - component: {fileID: 5290975820282514085}
+  - component: {fileID: 5290975820282514086}
+  m_Layer: 9
+  m_Name: Ground Collider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5290975820282514084
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5290975820282514083}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5290975820000011701}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &5290975820282514085
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5290975820282514083}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.005}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.01}
+  m_EdgeRadius: 0
+--- !u!114 &5290975820282514086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5290975820282514083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4265e47a7abaccd42b371bffec039b46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _OffSet: {x: 0, y: 0}
+  _Size: {x: 0.2, y: 0.1}
+  _Draw: 0
+  _Center: {x: 0, y: 0}
+  _PointA: {x: 0, y: 0}
+  _PointB: {x: 0, y: 0}
+--- !u!1 &5290975821019247943
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5290975821019247928}
+  - component: {fileID: 5290975821019247929}
+  - component: {fileID: 5290975821019247930}
+  m_Layer: 0
+  m_Name: Sprite
+  m_TagString: Character
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5290975821019247928
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5290975821019247943}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.45, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5290975819661603645}
+  - {fileID: 5290975819929018778}
+  m_Father: {fileID: 5290975819554912671}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &5290975821019247929
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5290975821019247943}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -632476047
+  m_SortingLayer: 5
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 6c5bc296a2b82f94295c3494e4f8c65d, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 7.5, y: 7.5}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!95 &5290975821019247930
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5290975821019247943}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1 &6388154906854262902
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8456407827050467973}
+  - component: {fileID: 3775351582233531002}
+  m_Layer: 0
+  m_Name: Damge Line Container
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8456407827050467973
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6388154906854262902}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.8, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5290975819554912671}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3775351582233531002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6388154906854262902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f675942891e17274d8b8f93b2caa3975, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _IsActive: 1
+  _DamageLinePrefab: {fileID: 5079890974056320206, guid: ea2cfd95746eac040bc3fbabc0d22d55,
+    type: 3}
+  _DamgeSkin: {fileID: 11400000, guid: ab3d3c96536feb045b9f9eb1bc5a7a3d, type: 2}

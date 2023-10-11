@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8b60c631871281b49be1f28fdf9f1cbd
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _HoverSFX: {instanceID: 0}
+  - _ClickSFX: {fileID: 8300000, guid: c2362ab20698595448ebe598c2b8a95b, type: 3}
+  - _ItemSlotUI: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

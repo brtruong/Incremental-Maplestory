@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6c6dec15aa14064b9945e1e0ecd477d, type: 3}
+  m_Name: Basic Damage Skin
+  m_EditorClassIdentifier: 
+  _Numbers:
+  - {fileID: 356297830234080847, guid: 6f478f71bf4e9bb499800f292566f28f, type: 3}
+  - {fileID: 4311080319703101456, guid: 9e6db3546fae1764d8689b9fa978b721, type: 3}
+  - {fileID: 2055742136925293710, guid: 5773032aef746c74ea9bc3eb07437d54, type: 3}
+  - {fileID: 6589379997139262906, guid: d3a71e878147f0e47a7fac8a4970eedc, type: 3}
+  - {fileID: 714460411036123993, guid: 5cc00cb773eb57a4d86351600f5021d6, type: 3}
+  - {fileID: 2815527500318165126, guid: b3c365bb4a0fcfe4c834369f7b8e5add, type: 3}
+  - {fileID: 8545933821642669473, guid: 59971908fc2cf1b43b8f5f92f84d2bf4, type: 3}
+  - {fileID: 139108932151458692, guid: b5ab1cd4d3c61f640ab924e76dc0e843, type: 3}
+  - {fileID: 2341361673678939166, guid: d3152490db53f13468872a42374158be, type: 3}
+  - {fileID: 8793806341473024029, guid: 0079e8530c20a5840bf001ecc2b93092, type: 3}
+  _NumbersCrit:
+  - {fileID: 2845388611368547954, guid: 5679a1022f12ece45ba647514cf7fb67, type: 3}
+  - {fileID: 117811469717467425, guid: 5b73a81ef9a3c494897d1a31e22ace81, type: 3}
+  - {fileID: 453366753954928416, guid: 057a4fa0a8ec83b43ab844fe7752a0a6, type: 3}
+  - {fileID: 6818596702849495218, guid: fc58f715668899349b9a86ab70e10349, type: 3}
+  - {fileID: 2295542708323747852, guid: 60a7c8b331f845a4db59150052ffd83f, type: 3}
+  - {fileID: 7467685150119478513, guid: 1c403210158d4674a8d13794bb4b8fd2, type: 3}
+  - {fileID: 2448083767717086921, guid: 14cc2b9ef370965458d95f8fd957372b, type: 3}
+  - {fileID: 7055156667700091048, guid: fb3ae1e7bf8bd7a48affc55ed1c36551, type: 3}
+  - {fileID: 8456582808034556367, guid: 30a255bf8e40d11479b7e0444544340a, type: 3}
+  - {fileID: 8113078129962296485, guid: 5071b012e4d01c3478578a3b196944b5, type: 3}
+  - {fileID: 5383881816710451063, guid: 46092c19b6a26d74dbc90e17ce50ac69, type: 3}
+  _Units: []
+  _Status: []

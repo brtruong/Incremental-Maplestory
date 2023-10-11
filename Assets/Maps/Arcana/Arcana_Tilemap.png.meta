@@ -1,0 +1,1869 @@
+fileFormatVersion: 2
+guid: b82870c40d2dcf34481ed57052069944
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Arcana_Tilemap_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 540
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 23, y: 8}
+        - {x: 23, y: -30}
+        - {x: 45, y: -30}
+        - {x: 45, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae9fed9bf9369a9499eb7597d386478c
+      internalID: 1455317629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcana_Tilemap_1
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 540
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -45, y: 8}
+        - {x: -45, y: -30}
+        - {x: 45, y: -30}
+        - {x: 45, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 675bf88e65e2ab140921bf45576db2d6
+      internalID: 1531576909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcana_Tilemap_2
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 540
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -45, y: 8}
+        - {x: -45, y: -30}
+        - {x: 45, y: -30}
+        - {x: 45, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd64df384cefd7448006efbe2db08f9
+      internalID: 1319934762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcana_Tilemap_3
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 540
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -45, y: 8}
+        - {x: -45, y: -30}
+        - {x: 45, y: -30}
+        - {x: 45, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5007fe8e30120cf42aa7fccd8ce55fcc
+      internalID: 2054878416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcana_Tilemap_4
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 540
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -45, y: 8}
+        - {x: -45, y: -30}
+        - {x: -26, y: -30}
+        - {x: -26, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e5b41ca976991844a41f19398b3fcfb
+      internalID: 981236265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcana_Tilemap_5
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 540
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -13, y: -30}
+        - {x: 45, y: -30}
+        - {x: 45, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6093dfc22fc79374fbc20a13fec29eb4
+      internalID: -2063773448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcana_Tilemap_6
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 540
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -45, y: 8}
+        - {x: -45, y: -30}
+        - {x: 14, y: -30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2d1f0955f9ea3748a6b78fc8127bccc
+      internalID: 1230563297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcana_Tilemap_7
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 540
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 15}
+        - {x: -3, y: -30}
+        - {x: 4, y: -30}
+        - {x: 4, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad2eb318b66e7b44994665b0d68123b
+      internalID: -683833377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcana_Tilemap_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 23, y: 30}
+        - {x: 23, y: -30}
+        - {x: 45, y: -30}
+        - {x: 45, y: 30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 293d713a92b68f04d9bbd5023ba9c772
+      internalID: -214751871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcana_Tilemap_9
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 480
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -45, y: 30}
+        - {x: -45, y: -30}
+        - {x: 45, y: -30}
+        - {x: 45, y: 30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebc1919acea9f7447acbbc7a13f604f7
+      internalID: 1649649040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcana_Tilemap_10
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 480
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -45, y: 30}
+        - {x: -45, y: -30}
+        - {x: -26, y: -30}
+        - {x: -26, y: 30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84aabde764003284c99643bfadcb64f8
+      internalID: -2147193384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcana_Tilemap_11
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 480
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -13, y: 30}
+        - {x: -45, y: 8}
+        - {x: -45, y: -30}
+        - {x: 45, y: -30}
+        - {x: 45, y: 30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1852bc0d2a0382447b310b421c080c75
+      internalID: 1527341829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcana_Tilemap_12
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 480
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -45, y: 30}
+        - {x: -45, y: -30}
+        - {x: 45, y: -30}
+        - {x: 45, y: 8}
+        - {x: 14, y: 30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44ac70f226e14514ea0fa715c4c5de84
+      internalID: 1797000124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcana_Tilemap_13
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 480
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 30}
+        - {x: -3, y: -30}
+        - {x: 4, y: -30}
+        - {x: 4, y: 30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e0b3304b227c4f40b158489c99ce97b
+      internalID: 1558930556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcana_Tilemap_14
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 480
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 30}
+        - {x: -3, y: -30}
+        - {x: 4, y: -30}
+        - {x: 4, y: 30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 374f1bed4d6a63046bfee2c306bf0298
+      internalID: -491200579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcana_Tilemap_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 420
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 23, y: 30}
+        - {x: 23, y: -30}
+        - {x: 45, y: -30}
+        - {x: 45, y: 30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af77fc94d48c744eb5f3877446e2ad3
+      internalID: -253635693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcana_Tilemap_16
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 420
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -45, y: 30}
+        - {x: -45, y: -30}
+        - {x: 45, y: -30}
+        - {x: 45, y: 30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7987f8de5c7b86144ae6fa66043e1172
+      internalID: 1387270986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcana_Tilemap_17
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 420
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -45, y: 30}
+        - {x: -45, y: -30}
+        - {x: -26, y: -30}
+        - {x: -26, y: 30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8db059c19329474b8a382dd09514f98
+      internalID: 1214384170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcana_Tilemap_18
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 420
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -45, y: 30}
+        - {x: -45, y: 9}
+        - {x: 13, y: -30}
+        - {x: 45, y: -30}
+        - {x: 45, y: 30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1de95473f35d8844f8d7fa673515c3a6
+      internalID: 2022872418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcana_Tilemap_19
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 420
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -45, y: 30}
+        - {x: -45, y: -30}
+        - {x: -12, y: -30}
+        - {x: 45, y: 9}
+        - {x: 45, y: 30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 575dcca74037172498b861516904a46a
+      internalID: 1827506446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcana_Tilemap_20
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 420
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 30}
+        - {x: -3, y: -30}
+        - {x: 4, y: -30}
+        - {x: 4, y: 30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 975c122d90481b44694eda8da213630c
+      internalID: 438517256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcana_Tilemap_21
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 420
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 30}
+        - {x: -3, y: -30}
+        - {x: 4, y: -30}
+        - {x: 4, y: 30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5b34c653feae0a45bc46f1e8f5750bf
+      internalID: -188590861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcana_Tilemap_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 360
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 23, y: 30}
+        - {x: 23, y: -30}
+        - {x: 45, y: -30}
+        - {x: 45, y: 30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3b6d4c3f553c284389394d2b7cbc7d5
+      internalID: 1167130847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcana_Tilemap_23
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 360
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -45, y: 30}
+        - {x: -45, y: -30}
+        - {x: 45, y: -30}
+        - {x: 45, y: 30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 712a7e01e37fc2149a2c2fa0a389328f
+      internalID: 903804002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcana_Tilemap_24
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 360
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -45, y: 30}
+        - {x: -45, y: -30}
+        - {x: -26, y: -30}
+        - {x: -26, y: 30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32b4a200a7550684b85a198b78529922
+      internalID: 1871204205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcana_Tilemap_25
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 360
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 13, y: 30}
+        - {x: 45, y: 9}
+        - {x: 45, y: 30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab21a9c071456344ab135cb899ff3444
+      internalID: 1718165318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcana_Tilemap_26
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 360
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -45, y: 30}
+        - {x: -45, y: 9}
+        - {x: -12, y: 30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e72fb6f1479050948a0e2c2bd2c6884e
+      internalID: 39953783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcana_Tilemap_27
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 360
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 30}
+        - {x: -3, y: 7}
+        - {x: 4, y: 7}
+        - {x: 4, y: 30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e081918819ce06e4eb6558bd22f741aa
+      internalID: 127605667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcana_Tilemap_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 23, y: 30}
+        - {x: 45, y: 9}
+        - {x: 45, y: 30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebec8d639f28b1d409bc1a6a70ff82d3
+      internalID: 1889085280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcana_Tilemap_29
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 300
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -45, y: 30}
+        - {x: -45, y: 9}
+        - {x: 45, y: 9}
+        - {x: 45, y: 30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e4eda8a46301f48bf7ab5951d141e1
+      internalID: 585889332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcana_Tilemap_30
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 300
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -45, y: 30}
+        - {x: -45, y: 9}
+        - {x: 45, y: 9}
+        - {x: 45, y: 30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74f3d4bd4cfad1c45ac1fa38d37bf068
+      internalID: -555279677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcana_Tilemap_31
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 300
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -45, y: 30}
+        - {x: -45, y: 9}
+        - {x: 45, y: 9}
+        - {x: 45, y: 30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 811b4f2bfdb2cab409093274fac23cd6
+      internalID: -1632996224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcana_Tilemap_32
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 300
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -45, y: 30}
+        - {x: -45, y: 9}
+        - {x: -26, y: 30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07fa8073ca2f7ff4da045d59827e033f
+      internalID: 2113448805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcana_Tilemap_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 23, y: 8}
+        - {x: 23, y: -30}
+        - {x: 45, y: -30}
+        - {x: 45, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 850f6dfe077f844479402ed1af9aec7a
+      internalID: 1122087817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcana_Tilemap_34
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 240
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -45, y: 8}
+        - {x: -45, y: -30}
+        - {x: 45, y: -30}
+        - {x: 45, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 242737805b1a22d45942d913184e6958
+      internalID: 1333634623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcana_Tilemap_35
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 240
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -45, y: 8}
+        - {x: -45, y: -30}
+        - {x: 45, y: -30}
+        - {x: 45, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddd59e4cd545a9d48a00e1449fbadc7b
+      internalID: -822151435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcana_Tilemap_36
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 240
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -45, y: 8}
+        - {x: -45, y: -30}
+        - {x: 45, y: -30}
+        - {x: 45, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 740ca1c4babd0134c86ea8d56edc1c24
+      internalID: -528730454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcana_Tilemap_37
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 240
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -45, y: 8}
+        - {x: -45, y: -30}
+        - {x: -26, y: -30}
+        - {x: -26, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d0ec399fccd60d4cb25464c6c70b30b
+      internalID: -1089976558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcana_Tilemap_38
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 240
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -13, y: -30}
+        - {x: 45, y: -30}
+        - {x: 45, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 236b4646c153fc84da0ccc7836cdbfa9
+      internalID: 378182004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcana_Tilemap_39
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 240
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -45, y: 8}
+        - {x: -45, y: -30}
+        - {x: 14, y: -30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbe3dabab34e7724d8aff0703472371e
+      internalID: -1131712282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcana_Tilemap_40
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 240
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 15}
+        - {x: -3, y: -30}
+        - {x: 4, y: -30}
+        - {x: 4, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea60a1850f382c409123310fdcf0953
+      internalID: 2030268794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcana_Tilemap_41
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 180
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 23, y: 30}
+        - {x: 23, y: -30}
+        - {x: 45, y: -30}
+        - {x: 45, y: 30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a9a0be879282934b8691d4ed17bf888
+      internalID: 1262380352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcana_Tilemap_42
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 180
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -45, y: 30}
+        - {x: -45, y: -30}
+        - {x: 45, y: -30}
+        - {x: 45, y: 30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e055dcd05b51b0843be27055d5366f70
+      internalID: 1758884697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcana_Tilemap_43
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 180
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -45, y: 30}
+        - {x: -45, y: -30}
+        - {x: -26, y: -30}
+        - {x: -26, y: 30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ea83477ee7fe494cad6223ccca5947d
+      internalID: -159889489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcana_Tilemap_44
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 180
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -13, y: 30}
+        - {x: -45, y: 8}
+        - {x: -45, y: -30}
+        - {x: 45, y: -30}
+        - {x: 45, y: 30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3af3fbe89760ec418bc187c938080fd
+      internalID: -1645094801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcana_Tilemap_45
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 180
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -45, y: 30}
+        - {x: -45, y: -30}
+        - {x: 45, y: -30}
+        - {x: 45, y: 8}
+        - {x: 14, y: 30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: afdf080c7b9c5fa4fb08fa3c1c0c84bd
+      internalID: -196854873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcana_Tilemap_46
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 180
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 30}
+        - {x: -3, y: -30}
+        - {x: 4, y: -30}
+        - {x: 4, y: 30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca693099e9ab01459760fd0a5fddf88
+      internalID: -1394337783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcana_Tilemap_47
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 180
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 30}
+        - {x: -3, y: -30}
+        - {x: 4, y: -30}
+        - {x: 4, y: 30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a618e76d3cfed740b072d1b7cff2731
+      internalID: -2039047834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcana_Tilemap_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 120
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 23, y: 30}
+        - {x: 23, y: -30}
+        - {x: 45, y: -30}
+        - {x: 45, y: 30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b37083ec9a58a84c801c00b41e48d9f
+      internalID: 668520499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcana_Tilemap_49
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 120
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -45, y: 30}
+        - {x: -45, y: -30}
+        - {x: 45, y: -30}
+        - {x: 45, y: 30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc8e8b0de8409e145a750ca5ae76b5d0
+      internalID: 1533030774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcana_Tilemap_50
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 120
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -45, y: 30}
+        - {x: -45, y: -30}
+        - {x: -26, y: -30}
+        - {x: -26, y: 30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2aaaacb9fab41448ad8f1ae27b7750a
+      internalID: -2115898691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcana_Tilemap_51
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 120
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -45, y: 30}
+        - {x: -45, y: 9}
+        - {x: 13, y: -30}
+        - {x: 45, y: -30}
+        - {x: 45, y: 30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 726682a7ffef27349b5a27dc069b8f0c
+      internalID: 1502395465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcana_Tilemap_52
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 120
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -45, y: 30}
+        - {x: -45, y: -30}
+        - {x: -12, y: -30}
+        - {x: 45, y: 9}
+        - {x: 45, y: 30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbf4f2a8ebd27144e836afef37647f2c
+      internalID: 167813012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcana_Tilemap_53
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 120
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 30}
+        - {x: -3, y: -30}
+        - {x: 4, y: -30}
+        - {x: 4, y: 30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ceef0682d30db419509342bc324e07
+      internalID: 910183061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcana_Tilemap_54
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 120
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 30}
+        - {x: -3, y: -30}
+        - {x: 4, y: -30}
+        - {x: 4, y: 30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 304b1b567e34bfe429128d90209712c3
+      internalID: 976348584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcana_Tilemap_55
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 120
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ced85351549d0d548b1c3586ac80f502
+      internalID: -1581451021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcana_Tilemap_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 60
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 23, y: 30}
+        - {x: 23, y: -30}
+        - {x: 45, y: -30}
+        - {x: 45, y: 30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c693c85216f4c66429268668fab0f3f4
+      internalID: 328198464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcana_Tilemap_57
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 60
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -45, y: 30}
+        - {x: -45, y: -30}
+        - {x: 45, y: -30}
+        - {x: 45, y: 30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 659b908fb80706641bcfc2da2d05d7bb
+      internalID: 1958636466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcana_Tilemap_58
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 60
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -45, y: 30}
+        - {x: -45, y: -30}
+        - {x: -26, y: -30}
+        - {x: -26, y: 30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40b4d38683dfcfb418b6fd1deddc7a71
+      internalID: -514055129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcana_Tilemap_59
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 60
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 13, y: 30}
+        - {x: 45, y: 9}
+        - {x: 45, y: 30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bde87d23590a59b49a93118eca363907
+      internalID: 1004263427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcana_Tilemap_60
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 60
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -45, y: 30}
+        - {x: -45, y: 9}
+        - {x: -12, y: 30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0670d50da7b8034fa3af05475fde0ac
+      internalID: -959021187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcana_Tilemap_61
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 60
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 30}
+        - {x: -3, y: 7}
+        - {x: 4, y: 7}
+        - {x: 4, y: 30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ad3f3e6fe23fee4ca933bda5ff11c64
+      internalID: -2061495402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcana_Tilemap_62
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 23, y: 30}
+        - {x: 45, y: 9}
+        - {x: 45, y: 30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c02e86b22eaba4945912df99e0be1804
+      internalID: -2134674471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcana_Tilemap_63
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 0
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -45, y: 30}
+        - {x: -45, y: 9}
+        - {x: 45, y: 9}
+        - {x: 45, y: 30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37670881fd9e4584ab9eedde80a7827c
+      internalID: -297017566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcana_Tilemap_64
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 0
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -45, y: 30}
+        - {x: -45, y: 9}
+        - {x: 45, y: 9}
+        - {x: 45, y: 30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 626f26166c29adc4595b90288bd2da31
+      internalID: -1142986303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcana_Tilemap_65
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 0
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -45, y: 30}
+        - {x: -45, y: 9}
+        - {x: 45, y: 9}
+        - {x: 45, y: 30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55401f2896b1b074bb46c19fba746334
+      internalID: 2067742380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcana_Tilemap_66
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 0
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -45, y: 30}
+        - {x: -45, y: 9}
+        - {x: -26, y: 30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf823d0c2312ec04998c3adbb83fb49b
+      internalID: 1447848824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Arcana_Tilemap_47: -2039047834
+      Arcana_Tilemap_36: -528730454
+      Arcana_Tilemap_23: 903804002
+      Arcana_Tilemap_37: -1089976558
+      Arcana_Tilemap_0: 1455317629
+      Arcana_Tilemap_24: 1871204205
+      Arcana_Tilemap_55: -1581451021
+      Arcana_Tilemap_66: 1447848824
+      Arcana_Tilemap_63: -297017566
+      Arcana_Tilemap_2: 1319934762
+      Arcana_Tilemap_60: -959021187
+      Arcana_Tilemap_48: 668520499
+      Arcana_Tilemap_14: -491200579
+      Arcana_Tilemap_50: -2115898691
+      Arcana_Tilemap_31: -1632996224
+      Arcana_Tilemap_53: 910183061
+      Arcana_Tilemap_43: -159889489
+      Arcana_Tilemap_22: 1167130847
+      Arcana_Tilemap_7: -683833377
+      Arcana_Tilemap_12: 1797000124
+      Arcana_Tilemap_18: 2022872418
+      Arcana_Tilemap_30: -555279677
+      Arcana_Tilemap_33: 1122087817
+      Arcana_Tilemap_65: 2067742380
+      Arcana_Tilemap_58: -514055129
+      Arcana_Tilemap_15: -253635693
+      Arcana_Tilemap_38: 378182004
+      Arcana_Tilemap_34: 1333634623
+      Arcana_Tilemap_54: 976348584
+      Arcana_Tilemap_6: 1230563297
+      Arcana_Tilemap_62: -2134674471
+      Arcana_Tilemap_26: 39953783
+      Arcana_Tilemap_4: 981236265
+      Arcana_Tilemap_5: -2063773448
+      Arcana_Tilemap_35: -822151435
+      Arcana_Tilemap_1: 1531576909
+      Arcana_Tilemap_56: 328198464
+      Arcana_Tilemap_64: -1142986303
+      Arcana_Tilemap_16: 1387270986
+      Arcana_Tilemap_28: 1889085280
+      Arcana_Tilemap_59: 1004263427
+      Arcana_Tilemap_40: 2030268794
+      Arcana_Tilemap_45: -196854873
+      Arcana_Tilemap_17: 1214384170
+      Arcana_Tilemap_13: 1558930556
+      Arcana_Tilemap_39: -1131712282
+      Arcana_Tilemap_41: 1262380352
+      Arcana_Tilemap_49: 1533030774
+      Arcana_Tilemap_32: 2113448805
+      Arcana_Tilemap_19: 1827506446
+      Arcana_Tilemap_11: 1527341829
+      Arcana_Tilemap_46: -1394337783
+      Arcana_Tilemap_61: -2061495402
+      Arcana_Tilemap_51: 1502395465
+      Arcana_Tilemap_52: 167813012
+      Arcana_Tilemap_27: 127605667
+      Arcana_Tilemap_10: -2147193384
+      Arcana_Tilemap_29: 585889332
+      Arcana_Tilemap_21: -188590861
+      Arcana_Tilemap_25: 1718165318
+      Arcana_Tilemap_3: 2054878416
+      Arcana_Tilemap_57: 1958636466
+      Arcana_Tilemap_8: -214751871
+      Arcana_Tilemap_44: -1645094801
+      Arcana_Tilemap_42: 1758884697
+      Arcana_Tilemap_9: 1649649040
+      Arcana_Tilemap_20: 438517256
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

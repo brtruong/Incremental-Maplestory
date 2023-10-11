@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55abc145773f53f47ad6e3eeca934ab7, type: 3}
+  m_Name: Water Spirit
+  m_EditorClassIdentifier: 
+  <ID>k__BackingField: 0
+  <Name>k__BackingField: Water Spirit
+  <AttackSFX>k__BackingField: {fileID: 8300000, guid: fa8713587f3546b4998844a25c0ecf91,
+    type: 3}
+  <HitSFX>k__BackingField: {fileID: 8300000, guid: c330445d0c3c43a4caa5377986a7d1fd,
+    type: 3}
+  <DieSFX>k__BackingField: {fileID: 8300000, guid: 3eb233fc8c3c09c4d9630b36eda4b747,
+    type: 3}
+  <IsBoss>k__BackingField: 0
+  <PhysicalDamageReduction>k__BackingField: 0
+  <AttackDuration>k__BackingField: 1.3
+  <StaggerDuration>k__BackingField: 0.3
+  <DeathDuration>k__BackingField: 1.5
+  <BasicAttack>k__BackingField: {fileID: 11400000, guid: 8f549940caebea349b8f04215a67849b,
+    type: 2}

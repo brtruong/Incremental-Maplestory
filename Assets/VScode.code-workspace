@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"**/*.anim": true,
+			"**/*.asset": true,
+			"**/*.controller": true,
+			"**/*.jpg": true,
+			"**/*.mp3": true,
+			"**/*.png": true,
+			"**/*.prefab": true,
+			"**/Animations": true,
+			"**/Sprite Sheet": true,
+			"Backgrounds": true,
+			"Materials": true,
+			"Saves": true,
+			"Scenes": true,
+			"TextMesh Pro": true
+		}
+	}
+}
