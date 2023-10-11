@@ -1,4 +1,0 @@
-repository "Incremental Maplestory@brandontruong812@cloud"
-  path "/"
-    smartbranch "/main" changeset "17"        
-     
